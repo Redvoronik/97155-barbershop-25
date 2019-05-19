@@ -32,7 +32,65 @@
       </ul>
       <section class="filters">
         <h2 class="visually-hidden">Фильтр товаров</h2>
-        <!-- Здесь будет форма -->
+        <form class="product-filters" action="https://echo.htmlacademy.ru" method="get">
+          <fieldset>
+            <legend>Производители:</legend>
+            <ul>
+              <li>
+                <label>
+                  <input type="checkbox" name="Baxter of California" checked>Baxter of California
+                </label>
+              </li>
+              <li>
+                <label>
+                  <input type="checkbox" name="Mr Natty">Mr Natty
+                </label>
+              </li>
+              <li>
+                <label>
+                  <input type="checkbox" name="Suavecito" checked>Suavecito
+                </label>
+              </li>
+              <li>
+                <label>
+                  <input type="checkbox" name="Malin+Goetz">Malin+Goetz
+                </label>
+              </li>
+              <li>
+                <label>
+                  <input type="checkbox" name="Murray’s">Murray’s
+                </label>
+              </li>
+              <li>
+                <label>
+                  <input type="checkbox" name="American Crew" checked>American Crew
+                </label>
+              </li>
+            </ul>
+          </fieldset>
+          <fieldset>
+            <legend>Группы товаров:</legend>
+            <ul>
+              <li>
+                <label>
+                  <input type="radio" name="product-group" value="shaving">Бритвенные принадлежности
+                </label>
+              </li>
+              <li>
+                <label>
+                  <input type="radio" name="product-group" value="hair-care" checked>Средства для ухода
+                </label>
+              </li>
+              <li>
+                <label>
+                  <input type="radio" name="product-group" value="accessories">Аксессуары
+                </label>
+              </li>
+            </ul>
+          </fieldset>
+          <button type="submit">Показать</button>
+
+        </form>
       </section>
 
       <section class="catalog">
